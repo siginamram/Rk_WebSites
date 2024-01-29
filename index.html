@@ -3,11 +3,18 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Startup - Startup Website Template</title>
+    <title>Sri Aircare Solutions</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="Free HTML Templates" name="keywords">
     <meta content="Free HTML Templates" name="description">
-
+    <link rel="stylesheet" href="chatstyle.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts Link For Icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,1,0" />
+    <script src="script.js" defer></script>
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
 
@@ -78,7 +85,7 @@
         <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
             <a href="index.html" class="navbar-brand p-0">
                 <!-- <h1 class="m-0"><i class="fa fa-user-tie me-2"></i>Sri Aircare Solutions</h1> -->
-                <img src="img/New-Logo.jpg" class="fa fa-user-tie me-1" alt="Image">
+                <img src="img/S3.png" class="fa fa-user-tie me-1" alt="Image">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
@@ -106,6 +113,8 @@
                         </div>
                     </div> -->
                     <a href="contact.html" class="nav-item nav-link">Contact</a>
+                    <a href="tel:8297006006"
+                    class="nav-item nav-link"><i class="fa fa-phone-alt me-2"></i>Talk to Us</a>
                 </div>
                 <butaton type="button" class="btn text-primary ms-3" data-bs-toggle="modal"
                     data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
@@ -209,7 +218,7 @@
                             <i class="fa fa-award text-primary"></i>
                         </div>
                         <div class="ps-4">
-                            <h5 class="text-white mb-0">Win Awards</h5>
+                            <h5 class="text-white mb-0">On Going Projects</h5>
                             <h1 class="text-white mb-0" data-toggle="counter-up">15</h1>
                         </div>
                     </div>
@@ -251,7 +260,7 @@
                             <h5 class="mb-3"><i class="fa fa-check text-primary me-3"></i>Fair Prices</h5>
                         </div>
                     </div>
-                    <div class="d-flex align-items-center mb-4 wow fadeIn" data-wow-delay="0.6s">
+                    <div class="d-flex align-items-center mb-5 wow fadeIn" data-wow-delay="0.6s">
                         <div class="bg-primary d-flex align-items-center justify-content-center rounded"
                             style="width: 60px; height: 60px;">
                             <i class="fa fa-phone-alt text-white"></i>
@@ -259,6 +268,14 @@
                         <div class="ps-4">
                             <h5 class="mb-2">Call to ask any question</h5>
                             <h4 class="text-primary mb-0">+91- 8297006006</h4>
+                        </div>
+                        <div class="bg-primary d-flex align-items-center justify-content-center rounded"
+                            style="width: 60px; height: 60px;">
+                            <i class="bi bi-envelope-open text-white"></i>
+                        </div>
+                        <div class="ps-4">
+                            <!-- <h5 class="bi bi-envelope-open text-primary me-2"></h5> -->
+                            <h4 class="text-primary mb-0">sriaircare@outlook.com</h4>
                         </div>
                     </div>
                     <a href="quote.html" class="btn btn-primary py-3 px-5 mt-3 wow zoomIn" data-wow-delay="0.9s">Request
@@ -345,7 +362,7 @@
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
                 <h5 class="fw-bold text-primary text-uppercase">Our Services</h5>
-                <h1 class="mb-0">Custom Solutions for Your Successful Business</h1>
+                <h1 class="mb-0">Air conditioning Solutions for Your Successful Business</h1>
             </div>
             <div class="row g-5">
                 <div class="col-lg-4 col-md-6 wow zoomIn" data-wow-delay="0.3s">
@@ -566,7 +583,7 @@
 
 
     <!-- Testimonial Start -->
-    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <!-- <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
                 <h5 class="fw-bold text-primary text-uppercase">Testimonial</h5>
@@ -623,7 +640,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Testimonial End -->
 
 
@@ -761,7 +778,7 @@
     <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5 mb-5">
             <div class="section-title text-center position-relative pb-3 mb-4 mx-auto" style="max-width: 600px;">
-                <h5 class="fw-bold text-primary text-uppercase">Our authorized dealers</h5>
+                <!-- <h5 class="fw-bold text-primary text-uppercase">Our authorized dealers</h5> -->
                 <h1 class="mb-0">What Our Clients Say About Our Services</h1>
             </div>
             <div class="bg-white">
@@ -781,8 +798,35 @@
     </div>
     <!-- Vendor End -->
 
+    <!-- Chat Bot-->
+    <!-- <button class="chatbot-toggler">
+        <span class="material-symbols-rounded">mode_comment</span>
+        <span class="material-symbols-outlined">close</span>
+    </button>
+    <div class="chatbot">
+        <header>
+            <h2>Chatbot</h2>
+            <span class="close-btn material-symbols-outlined">close</span>
+        </header>
+        <ul class="chatbox">
+            <li class="chat incoming">
+                <span class="material-symbols-outlined">smart_toy</span>
+                <p>Hi there 👋<br>How can I help you today?</p>
+            </li>
+        </ul>
+        <div class="chat-input">
+            <textarea placeholder="Enter a message..." spellcheck="false" required></textarea>
+            <span id="send-btn" class="material-symbols-rounded">send</span>
+        </div>
+    </div> -->
+    <!-- End Chat Bot-->
 
     <!-- Footer Start -->
+    <a href="https://wa.me/8297006006" class="whatsapp-button chatbot-toogler-l pop-up-animation" target="_blank"
+        rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-text"></span>
+    </a>
     <div class="container-fluid bg-dark text-light mt-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container">
             <div class="row gx-5">
@@ -795,12 +839,12 @@
                         </a>
                         <p class="mt-3 mb-4">We are provide top class quality in Service, Project management & time
                             Management.</p>
-                        <form action="">
+                        <!-- <form action="">
                             <div class="input-group">
                                 <input type="text" class="form-control border-white p-3" placeholder="Your Email">
                                 <button class="btn btn-dark">Sign Up</button>
                             </div>
-                        </form>
+                        </form> -->
                     </div>
                 </div>
                 <div class="col-lg-8 col-md-6">
@@ -885,7 +929,8 @@
                             All Rights Reserved.
 
                             <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                            Designed by <a class="text-white border-bottom" href="https://www.atomsgroup.net">Atoms group</a>
+                            Designed by <a class="text-white border-bottom" href="https://www.atomsgroup.net">Atoms
+                                group</a>
                         </p>
                         <!-- <br>Distributed By: <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a> -->
                     </div>
@@ -894,7 +939,6 @@
         </div>
     </div>
     <!-- Footer End -->
-
 
     <!-- Back to Top -->
     <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
